@@ -1,0 +1,84 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: dc - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\tao\LOCALS~1\Temp\RSP7C9D.tmp" with contents
+[
+/nologo /ML /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Release/dc.pch" /YX /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\pangqiu\research\interfreeDC\dc\code\octree.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\tao\LOCALS~1\Temp\RSP7C9D.tmp" 
+Creating temporary file "C:\DOCUME~1\tao\LOCALS~1\Temp\RSP7C9E.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:no /pdb:"Release/dc.pdb" /machine:I386 /out:"Release/dc.exe" 
+.\Release\dc.obj
+.\Release\eigen.obj
+.\Release\octree.obj
+]
+Creating command line "link.exe @C:\DOCUME~1\tao\LOCALS~1\Temp\RSP7C9E.tmp"
+<h3>Output Window</h3>
+Compiling...
+octree.cpp
+C:\pangqiu\research\interfreeDC\dc\code\octree.cpp(486) : warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+C:\pangqiu\research\interfreeDC\dc\code\octree.cpp(487) : warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+C:\pangqiu\research\interfreeDC\dc\code\octree.cpp(488) : warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+C:\pangqiu\research\interfreeDC\dc\code\octree.cpp(765) : warning C4101: 'j' : unreferenced local variable
+C:\pangqiu\research\interfreeDC\dc\code\octree.cpp(833) : warning C4101: 'j' : unreferenced local variable
+C:\pangqiu\research\interfreeDC\dc\code\octree.cpp(865) : warning C4101: 'type' : unreferenced local variable
+C:\pangqiu\research\interfreeDC\dc\code\octree.cpp(865) : warning C4101: 'ht' : unreferenced local variable
+C:\pangqiu\research\interfreeDC\dc\code\octree.cpp(1066) : warning C4101: 'j' : unreferenced local variable
+C:\pangqiu\research\interfreeDC\dc\code\octree.cpp(1129) : warning C4101: 'j' : unreferenced local variable
+C:\pangqiu\research\interfreeDC\dc\code\octree.cpp(1161) : warning C4101: 'type' : unreferenced local variable
+C:\pangqiu\research\interfreeDC\dc\code\octree.cpp(1161) : warning C4101: 'ht' : unreferenced local variable
+C:\pangqiu\research\interfreeDC\dc\code\octree.cpp(1327) : warning C4101: 'j' : unreferenced local variable
+C:\pangqiu\research\interfreeDC\dc\code\octree.cpp(1416) : warning C4101: 'j' : unreferenced local variable
+C:\pangqiu\research\interfreeDC\dc\code\octree.cpp(1456) : warning C4101: 'type' : unreferenced local variable
+C:\pangqiu\research\interfreeDC\dc\code\octree.cpp(1810) : warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+C:\pangqiu\research\interfreeDC\dc\code\octree.cpp(1811) : warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+C:\pangqiu\research\interfreeDC\dc\code\octree.cpp(1812) : warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+C:\pangqiu\research\interfreeDC\dc\code\octree.cpp(1850) : warning C4244: 'initializing' : conversion from 'int' to 'float', possible loss of data
+C:\pangqiu\research\interfreeDC\dc\code\octree.cpp(1850) : warning C4244: 'initializing' : conversion from 'int' to 'float', possible loss of data
+C:\pangqiu\research\interfreeDC\dc\code\octree.cpp(1850) : warning C4244: 'initializing' : conversion from 'int' to 'float', possible loss of data
+C:\pangqiu\research\interfreeDC\dc\code\octree.cpp(1851) : warning C4244: 'initializing' : conversion from 'int' to 'float', possible loss of data
+C:\pangqiu\research\interfreeDC\dc\code\octree.cpp(1851) : warning C4244: 'initializing' : conversion from 'int' to 'float', possible loss of data
+C:\pangqiu\research\interfreeDC\dc\code\octree.cpp(1851) : warning C4244: 'initializing' : conversion from 'int' to 'float', possible loss of data
+C:\pangqiu\research\interfreeDC\dc\code\octree.cpp(1857) : warning C4101: 'd1' : unreferenced local variable
+C:\pangqiu\research\interfreeDC\dc\code\octree.cpp(1857) : warning C4101: 'd2' : unreferenced local variable
+C:\pangqiu\research\interfreeDC\dc\code\octree.cpp(1856) : warning C4101: 'nm' : unreferenced local variable
+C:\pangqiu\research\interfreeDC\dc\code\octree.cpp(2042) : warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+C:\pangqiu\research\interfreeDC\dc\code\octree.cpp(2043) : warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+C:\pangqiu\research\interfreeDC\dc\code\octree.cpp(2044) : warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+C:\pangqiu\research\interfreeDC\dc\code\octree.cpp(2152) : warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+C:\pangqiu\research\interfreeDC\dc\code\octree.cpp(2166) : warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+C:\pangqiu\research\interfreeDC\dc\code\octree.cpp(2203) : warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+C:\pangqiu\research\interfreeDC\dc\code\octree.cpp(2207) : warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+C:\pangqiu\research\interfreeDC\dc\code\octree.cpp(2212) : warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+C:\pangqiu\research\interfreeDC\dc\code\octree.cpp(2216) : warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+C:\pangqiu\research\interfreeDC\dc\code\octree.cpp(2226) : warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+C:\pangqiu\research\interfreeDC\dc\code\octree.cpp(2227) : warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+C:\pangqiu\research\interfreeDC\dc\code\octree.cpp(2228) : warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+C:\pangqiu\research\interfreeDC\dc\code\octree.cpp(2328) : warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+C:\pangqiu\research\interfreeDC\dc\code\octree.cpp(2329) : warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+C:\pangqiu\research\interfreeDC\dc\code\octree.cpp(2339) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+C:\pangqiu\research\interfreeDC\dc\code\octree.cpp(2347) : warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+C:\pangqiu\research\interfreeDC\dc\code\octree.cpp(2351) : warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+C:\pangqiu\research\interfreeDC\dc\code\octree.cpp(2371) : warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+C:\pangqiu\research\interfreeDC\dc\code\octree.cpp(2375) : warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+C:\pangqiu\research\interfreeDC\dc\code\octree.cpp(2398) : warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+C:\pangqiu\research\interfreeDC\dc\code\octree.cpp(2402) : warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+C:\pangqiu\research\interfreeDC\dc\code\octree.cpp(2505) : warning C4101: 'j' : unreferenced local variable
+C:\pangqiu\research\interfreeDC\dc\code\octree.cpp(2594) : warning C4101: 'j' : unreferenced local variable
+C:\pangqiu\research\interfreeDC\dc\code\octree.cpp(2636) : warning C4101: 'type' : unreferenced local variable
+Linking...
+
+
+
+<h3>Results</h3>
+dc.exe - 0 error(s), 50 warning(s)
+</pre>
+</body>
+</html>
